@@ -34,7 +34,7 @@ header{
     transition: 0.5s;
 }
 #section-1{
-    padding: 100px;
+    padding: 200px;
     background-image: url(imagem.jose/brasil.jpg);
     background-size: cover;
 }
