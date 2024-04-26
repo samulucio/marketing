@@ -1,0 +1,159 @@
+*{
+    margin: 0; /* Colocar ou tirar margem*/
+    padding: 0; /*Um espaçamento entre o conteúdo e a margem*/
+    font-family: 'Times New Roman', Times, serif; /* Mudar a fonte das letras*/
+    text-decoration: none; /*Tirando a decoração de texto (sublinhado)*/
+    list-style: none; /*Para retirar os sinais da lista*/
+}
+
+.cabecalho{
+background-color: #1c0f009d; /* Mudar cor de fundo*/
+padding: 3rem; /*Um espaçamento entre o conteúdo e a margem*/
+display: flex; /* Para meus itens ficarem lado á lado*/
+justify-content: end; /* Para justificar os itens */
+flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
+}
+
+.menu {
+    display: flex; /* Para meus itens ficarem lado á lado*/
+    align-items: center;
+   
+}
+
+.menu li{
+    margin-left: 10px; /* Dando espaço entre o lado esquerdo dos textos */
+}
+
+.menu li a{
+    color: white; /*Mudar cor da fonte*/
+    padding: 10px; /*Um espaçamento entre o conteúdo e a margem*/
+    font-size: 17px;  /* Aumentar o tamanha do ícone*/
+    cursor: pointer; /*Altera o cursor do mouse para pointer */
+}
+
+.menu li a:hover{
+    transition: 0.8s; /*Para transformar a cor do botão*/
+    cursor: pointer; /*Altera o cursor do mouse para pointer */
+    color: #C5B6A5 ; /*Habilitando uma cor ao passar o mouse*/
+}
+
+.secao{
+    padding: 2rem;
+    text-align: center;
+    background-color: #c5b6a58c;
+}
+
+.secao h2{
+    margin: 10px 10px 10px auto;
+    font-size: 2rem;
+}
+
+.secao p{
+    margin-bottom: 1rem;
+    font-size: 1.6vw;
+}
+
+.linha{
+    width: 70%;
+    margin: 45px auto;
+
+ }
+
+
+#formulario{
+    padding: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.562);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.432);
+    border-radius: 1rem;
+}
+
+#formulario input{
+    margin-bottom: 25px;
+    margin-left: 1rem;
+}
+
+#formulario label{
+  text-align: center;
+}
+
+  
+
+   form{
+    text-align: center;
+}
+
+   form  input {
+    color: rgba(0, 0, 0, 0.89);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.0rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+    border: 1rem;
+    border-radius: 1rem;
+    }
+
+    #botao{
+        padding: 0.6rem;
+        color: black;
+        font-size: 1.0rem;
+        cursor: pointer;
+       }
+        
+       #botao:hover{
+        background-color: #1c0f009c ;
+        color: #C5B6A5;
+        cursor: pointer;
+        transition: 1s;
+       }
+
+    .rodape{
+    background-color: #1c0f00d3 ;
+    color: #1c0f009d; /*Mudar cor da fonte*/
+    display: flex; /* Para meus itens ficarem lado á lado*/
+    justify-content: space-evenly; /* Para justificar os itens */
+    align-items: center; /* Ele alinha em sentido da vertical*/
+    padding: 90px; /*Um espaçamento entre o conteúdo e a margem*/
+    flex-wrap: wrap;  /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
+}
+
+.lista{
+    display: flex; /* Para meus itens ficarem lado á lado*/
+}
+
+.lista li{
+    margin-right: 20px;
+    list-style: none; /*Para retirar os sinais da lista*/
+}
+
+.lista li a{
+    color: white; /*Mudar cor da fonte*/
+    font-size: 25px; /* Aumentar o tamanha do ícone*/
+    padding: 20px; /*Um espaçamento entre o conteúdo e a margem*/
+}
+
+.lista li a:hover{
+    transition: 0.8s; /*Para transformar a cor do botão*/
+    color: #C5B6A5; /*Mudar cor da fonte*/
+}
+
+    @media screen and (max-width : 1920px ) {
+        
+    }
+
+    @media screen and (max-width: 1366px) {
+    
+    }
+
+    @media screen and (max-width: 991px) {
+
+    }
+
+    @media screen and (max-width : 767px ) {
+    
+    }
+    
+    @media screen and (max-width : 480px ) {
+        
+    }
+    
+
