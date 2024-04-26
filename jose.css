@@ -35,7 +35,8 @@ header{
 }
 #section-1{
     padding: 100px;
-    background-color: #758580;
+    background-image: url(imagem.jose/brasil.jpg);
+    background-size: cover;
 }
 
 #section-1  button{
