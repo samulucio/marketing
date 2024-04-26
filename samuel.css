@@ -1,0 +1,40 @@
+/*Configuração Padrão de início*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+background-color: rgb(255, 255, 255);
+padding: 10vh; /*ajustamos o tamanho do preenchimento   --  podemos usar 70px*/
+
+}
+/*Chamamos o body para limitar o tamanho da altura e tamanho da página*/
+body {
+    height: 100vh;
+    width: 100vw;
+}
+.menu-header img{
+    width: 8vw;
+ }
+
+ .menu-header li a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-size: 13px; 
+    background-repeat: no-repeat;
+    
+  
+ }
+ .menu-header > li > a:hover { /*Efeito ao passar o cursor*/
+    color: rgb(228, 81, 81); /*Habilitando uma cor ao passar o mouse*/
+    transition: 0.8s; /*Adicionamos aqui uma transição*/}
+    
+ .menu-header  li { 
+    margin-left: 20px; 
+     }
+  #sessao{
+    
+
+ }
