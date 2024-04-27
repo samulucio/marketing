@@ -9,7 +9,7 @@
 
 header{
     padding: 20px;
-    background-color:#859691 ;
+    background-color:#ffffff ;
     position: sticky;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@ header{
 }
 .menu-header a{
     text-decoration: none;
-    color: white;
+    color: rgb(6, 6, 6);
     font-size: 30px;
     cursor:pointer;
 }
@@ -33,70 +33,106 @@ header{
     color: black;
     transition: 0.5s;
 }
-#section-1{
+.div-section1 {
     padding: 6em;
-   background-image: url(imagem.jose/brasil.jpg);
+   background-image: url(imagem.jose/barnes\ da\ camisa\ da\ selação\ BR.jpg);
     background-size: cover;
     position: center;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-}
 
-h1{
-   align-items: center;
-    margin-right: 150px;
-    color: rgb(6, 6, 6);
-    margin: 20px;
-    
-}
-
-#section-1  button{
+.div-section1 button{
    border-radius: 90px;
    padding:10px;
    width: 190px;
-   margin: 20px;
+   margin: 30px;
+   margin-left: 0px;
 }
-#section-1 a{
-    justify-content: center;
+.div-section1  a{
     display: flex;
     text-decoration: none;
     
 }
-#section-1 a button{
+.div-section1  a button{
     margin-right: 70px;
     justify-content: center;
-    border-color: aqua;
+    border-color: rgb(0, 255, 26);
     cursor: pointer;
 }
-#section-1 a button:hover{
-    background-color: gray;
+.div-section1  a button:hover{
+    background-color: rgb(204, 194, 15);
     transition: 0,5s;
-    color: white;
+    color: rgb(46, 16, 215);
 }
 /*fim da sessao 1 */
 
-
-
 #section-2{
-    padding:10em ;
- background-image: url(imagem.jose/timao.jpg);
- background-repeat: no-repeat;
+    padding: 5em;
+    background-image: url(imagem.jose/baners-nk31.jpg);
+    background-position: 100%;
+    background-size: cover;
+   
+}
+.div-section2 h2{
+    text-align: center;
+    margin: 15px;
+}
+
+.div-section2 p{
+font-size: 25px;
+color: rgb(0, 0, 0);
+
+}
+
+.div-flex{
+    background-color: aquamarine;
+    padding:9em;
+   
 }
 
 h2{
+    text-align: center;
+}
+#flexbox img{
+    max-width: 100%;
+    display: block;
+
+}
+#flexbox {
     display: flex;
-    justify-content:left;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+ 
 }
-h2{
-    margin-right: 150px;
+
+#flexbox div{
+    margin: 1px;
+    flex: 1 1 200px;
 }
+#flexbox p{
+    font-size: 19px;
 
-
-
-#section-3{
-    padding: 100px;
-    background-color:#54635f ;
-} 
+}
+.hodape{
+    background-color:rgb(36, 209, 225) ;
+    padding: 25px;
+}
+.hodape ul{
+    display: flex;
+    justify-content: center;
+}
+.hodape li{
+    margin-left: 50px;
+    list-style: none;
+}
+.hodape a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    cursor:pointer;
+}
+.hodape a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
