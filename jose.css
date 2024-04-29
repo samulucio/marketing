@@ -26,7 +26,7 @@ header{
 .menu-header a{
     text-decoration: none;
     color: rgb(6, 6, 6);
-    font-size: 30px;
+    font-size: 20px;
     cursor:pointer;
 }
 .menu-header a:hover{
@@ -47,6 +47,7 @@ header{
    width: 190px;
    margin: 30px;
    margin-left: 0px;
+   font-size: 20px;
 }
 .div-section1  a{
     display: flex;
