@@ -10,7 +10,6 @@
 background-color: #1c0f009d; /* Mudar cor de fundo*/
 padding: 3rem; /*Um espaçamento entre o conteúdo e a margem*/
 display: flex; /* Para meus itens ficarem lado á lado*/
-justify-content: end; /* Para justificar os itens */
 flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
 }
 
@@ -66,30 +65,19 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
     color: rgba(0, 0, 0, 0.562);
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.432);
     border-radius: 1rem;
+
 }
 
-#formulario input{
-    margin-bottom: 25px;
-    margin-left: 1rem;
-}
 
-#formulario label{
-  text-align: center;
-}
-
-  
-
-   form{
-    text-align: center;
-}
-
-   form  input {
-    color: rgba(0, 0, 0, 0.89);
-    font-family: 'Times New Roman', Times, serif;
-    padding: 1.0rem;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
-    border: 1rem;
-    border-radius: 1rem;
+ #formulario  input {
+     padding: 1.0rem;
+     border: 2rem;
+     border-radius: 1rem;
+     margin-bottom: 25px;
+     margin-left:1em;
+     font-family: 'Times New Roman', Times, serif;
+     color: rgba(0, 0, 0, 0.89);
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
     }
 
     #botao{
@@ -105,7 +93,17 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
         cursor: pointer;
         transition: 1s;
        }
-
+.btn-div input{
+    padding: 20px;
+    color: rgb(12, 12, 12);
+height: 50px;
+width: 210px;
+cursor: pointer;
+}
+.btn-div input:hover{
+background-color: rgb(141, 135, 222);
+transition: 0.5s;
+}
     .rodape{
     background-color: #1c0f00d3 ;
     color: #1c0f009d; /*Mudar cor da fonte*/
