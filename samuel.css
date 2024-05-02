@@ -59,7 +59,7 @@ body {
   #sessao{
    
     background-image: url(https://imgnike-a.akamaihd.net/strapi/nike/Banner_PWH_Dia_das_M_Ces_Fase_01_26_04_desktop_opt_01_4bf50dd0f9/Banner_PWH_Dia_das_M_Ces_Fase_01_26_04_desktop_opt_01_4bf50dd0f9.png);
-    padding: 21vh;
+    padding: 18vh;
     
  
 background-position: center;
@@ -122,9 +122,55 @@ justify-content: center;
       display: flex;
       justify-content: space-around;
 }
-#app div img {
-   width: 50rem;
+#app img {
+  width: 70rem;
 }
+#lancamento h2 {
+   display: flex;
+justify-content: center;
 
+}
+#lancamento2 img{
+   width: 80rem;
+}
+#lancamento2 h2 {
 
+   display: flex;
+   justify-content: center;
+}
+#lancamento2 button {
+   padding: 20px;
+   border-radius: 50px; 
+   width: 20vw; 
+   cursor: pointer;
+   border-color: rgb(0, 0, 0); 
+   margin: 30px; 
+   display: flex;
+   justify-content: center;
+  
+  
+   
+   
+}
+#lancamento2 a button  {
+   text-decoration: none;
+   color: #000000;
+   border-color: white; 
+   cursor: pointer;
+   font-size: 15px;
+}
+#lancamento2 button:hover {
+   background-color: rgb(54, 49, 49); 
+   transition: 0.5s;
+}
+#lancamento3 img {
+   margin-top: 18%;
+}
+#lancamento3 img {
+   width: 165vh;
+}
+#lancamento3 h2 {
+   display: flex;
+   justify-content: center;
+}
 
